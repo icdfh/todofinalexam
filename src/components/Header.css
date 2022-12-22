@@ -1,0 +1,25 @@
+.Header{
+    padding-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header h1{
+    letter-spacing: 5px;
+    color: var(--White);
+    font-size: 2.5rem;
+}
+
+.Header button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .Header{
+        padding: 5rem 1rem 0rem 1rem;
+    }
+}

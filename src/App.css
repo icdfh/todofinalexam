@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+:root{
+
+  --Bright-Blue: #3a7bfd;
+  --Check-Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+
+  /*Light Theme*/
+
+  --White:#ffffff;
+  --Very-Light-Gray: #fafafa;
+  --Very-Light-Grayish-Blue: #e4e5f1;
+  --Light-Grayish-Blue: #d2d3db;
+  --Dark-Grayish-Blue: #9394a5;
+  --Very-Dark-Grayish-Blue: #484b6a;
+
+  /*dark theme*/
+
+--Very-Dark-Blue: #161722;
+--Very-Dark-Desaturated-Blue: #25273c;
+--DLight-Grayish-Blue: #cacde8;
+--DLight-Grayish-Blue-hover: #e4e5f1;
+--DDark-Grayish-Blue: #777a92;
+--DVery-Dark-Grayish-Blue: #4d5066;
+--DVery-Dark-Grayish-Blue: #393a4c;
+
+/*weight 400 y 700*/
+
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--Very-Light-Gray);
+  background-position: top;
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+
+.App--Dark{
+  background-color: var(--Very-Dark-Blue);
+}
+
+.App__container{
+  max-width: 500px;
+  width: 100%;
+}
+
+.Footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  color: var(--Dark-Grayish-Blue);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .App{
+    background-size:230%;
+  }
+}
